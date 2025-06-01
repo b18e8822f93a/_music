@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Music App!</h1>
+        <div id="example-number" style="margin-bottom:10px; font-weight:bold;"></div>
+        <button id="play-before">Before</button>
+        <button id="play-after">After</button>
+        <div id="question-container">
+            <p id="question"></p>
+            <button class="answer-btn" data-answer="pianissimo">Pianissimo</button>
+<button class="answer-btn" data-answer="forte">Forte</button>
+<button class="answer-btn" data-answer="crescendo">Crescendo</button>
+        </div>
+        <div id="feedback"></div>
+    </div>
+    <script type="module" src="examples.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
